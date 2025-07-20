@@ -1,71 +1,64 @@
-<!--타이틀 부분-->
-<div align="center">
-  <img src="https://github.com/oka1313/oka1313/assets/101691440/92118a53-c5b6-40bc-b130-bf8c398d7b51" />
-</div>
+# MY PORTFOLIO
 
-<!--내용 부분-->
-<h3 align="center">✨ Tech Stack ✨</h3>
-<div align="center">
-  <img src="https://img.shields.io/badge/react-20232a.svg?style=for-the-badge&logo=react&logoColor=61DAFB" />&nbsp
-  <img src="https://img.shields.io/badge/javascript-F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=20232a" />&nbsp
-  <img src="https://img.shields.io/badge/html5-E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" />&nbsp
-</div>
+**KIMSS**는 마니또 SNS 플랫폼인 마롱(Marong)의 AI 기반 미션 생성 및 장소 추천 시스템과 서울시 부동산 데이터를 활용한 머신러닝 분석 프로젝트를 포함한 통합 프로젝트입니다.
 
-<div align="center">
-  <img src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=ffd35b" />&nbsp
-  <img src="https://img.shields.io/badge/tailwindcss-1daabb.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" />&nbsp
-  <img src="https://img.shields.io/badge/css3-1572B6.svg?style=for-the-badge&logo=css3&logoColor=white" />&nbsp
-</div>
+---
 
-<br>
+## 프로젝트 구성
 
-<div align="center">
-  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" />&nbsp
-  <img src="https://img.shields.io/badge/pandas-150458.svg?style=for-the-badge&logo=pandas&logoColor=white" />&nbsp
-  <img src="https://img.shields.io/badge/numpy-4d77cf.svg?style=for-the-badge&logo=numpy&logoColor=white" />&nbsp
-  <img src="https://img.shields.io/badge/Matplotlib-11557c.svg?style=for-the-badge&logo=Matplotlib&logoColor=white" />&nbsp
-</div>
+| 프로젝트명                                   | 설명                                        | 주요 기술                                          |
+| -------------------------------------------- | ------------------------------------------- | -------------------------------------------------- |
+| [marong_mission](./tree/main/marong_mission) | 마니또 미션 자동 생성 시스템                | LangChain, HuggingFace, LangGraph, SBERT, ChromaDB |
+| [marong_place](./tree/main/marong_place)     | 마니또 사용자 맞춤 장소 추천 시스템         | PyTorch, SQLAlchemy, ChromaDB, ThreadPoolExecutor  |
+| [zerobase_ml](./tree/main/zerobase_ml)       | 서울시 전월세 계약 데이터 기반 분석 및 예측 | Python, R, XGBoost, LightGBM, Optuna               |
 
-<br>
+---
 
-<h3 align="center">📚 Studying 📚</h3>
-<div align="center">
-  <img src="https://img.shields.io/badge/typescript-007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" />&nbsp
-  <img src="https://img.shields.io/badge/React%20Query-FF4154?style=for-the-badge&logo=react%20query&logoColor=white" />&nbsp
-  <img src="https://img.shields.io/badge/Recoil-3578E5?style=for-the-badge&logo=recoil&logoColor=white" />&nbsp
-</div>
+## 핵심 기술 및 방법론
 
-<br>
+- LangChain, HuggingFace 기반 자연어 생성 및 평가
+- SBERT 및 ChromaDB를 활용한 임베딩 기반 유사도 검색
+- 멀티스레딩을 통한 대규모 병렬 처리 추천 시스템 구축
+- 사용자 피드백을 반영한 선호도 가중치 동적 갱신
+- 공공데이터를 이용한 데이터 전처리, 탐색적 데이터 분석(EDA), 머신러닝 기반 회귀 예측 모델 구축
 
-<h3 align="center">🛠 Tools 🛠</h3>
-<div align="center">
-  <img src="https://img.shields.io/badge/git-F05033.svg?style=for-the-badge&logo=git&logoColor=white" />&nbsp
-  <img src="https://img.shields.io/badge/github-181717.svg?style=for-the-badge&logo=github&logoColor=white" />&nbsp
-  <img src="https://img.shields.io/badge/Notion-F3F3F3.svg?style=for-the-badge&logo=notion&logoColor=black" />&nbsp
-</div>
+---
 
-<div align="center">
-  <img src="https://img.shields.io/badge/adobe%20photoshop-08253c.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=37abff" />&nbsp
-  <img src="https://img.shields.io/badge/figma-F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white" />&nbsp
-</div>
+## 프로젝트 상세 소개
 
-<br>
+### 1. Marong Mission (마롱 미션 생성기)
 
-<div align="center">
-  <img src="https://img.shields.io/badge/VSCode-2C2C32.svg?style=for-the-badge&logo=visual-studio-code&logoColor=22ABF3" />&nbsp
-  <img src="https://img.shields.io/badge/jupyter-2C2C32.svg?style=for-the-badge&logo=jupyter&logoColor=F37726" />&nbsp
-<!--   <img src="https://img.shields.io/badge/Colab-2C2C32.svg?style=for-the-badge&logo=googlecolab&logoColor=F9AB00" />&nbsp -->
-</div>
+마니또 게임에 필요한 미션을 자동으로 생성하는 AI 시스템입니다. 사용자 활동 및 그룹 성향 데이터를 바탕으로 자연스러우면서도 맞춤형 미션을 제공합니다.
 
-<br>
+**주요 기능:**
 
-<h3 align="center">📫 Contact 📫</h3>
-<div align="center">
-  <a href="https://enshrined-skate-eda.notion.site/My-CS-Study-23619b9916ce8058aeabd642e35adc61">
-    <img src="https://img.shields.io/badge/Velog-1EBC8F?style=for-the-badge&logo=velog&logoColor=white" />&nbsp
-  </a>
-  <a href="mailto:kcg199510@gmail.com">
-    <img
-      src="https://img.shields.io/badge/oka1313@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>&nbsp
-  </a>
-</div>
+- LangGraph 기반 파이프라인 구성
+- 그룹별 콘텐츠 및 설명 텍스트를 반영한 미션 생성
+- SBERT와 ChromaDB를 이용한 유사 예시 검색 및 후처리(미션 필터링, 중복 제거, 난이도 분류)
+- EXAONE 평가 모델을 이용한 미션 평가(일관성, 적절성, 창의성, 수행가능성)
+
+### 2. Marong Place (마롱 장소 추천 시스템)
+
+사용자와 마니또의 MBTI 점수, 위치 정보, 음식 선호 데이터를 활용하여 최적의 음식점 및 카페를 추천하는 맞춤형 장소 추천 시스템입니다.
+
+**주요 기능:**
+
+- 사용자와 마니또의 MBTI 분석 및 유사도 기반 추천
+- 선호 및 비선호 음식 데이터를 통한 개인화 필터링
+- 엔트로피 기반 특성 가중치 조정 및 위치 기반 점수 계산
+- 사용자 피드백을 통한 추천 결과의 지속적 개선
+
+### 3. Zerobase ML (서울시 전월세 계약 데이터 분석)
+
+서울시 전월세 계약 데이터를 분석하여 위험 매물 패턴 탐지 및 가격 예측 모델을 개발한 프로젝트입니다.
+
+**주요 기능:**
+
+- 데이터 수집 및 전처리 (이상치 및 결측치 처리, 파생 변수 생성)
+- 탐색적 데이터 분석(EDA)을 통한 주요 특성 및 위험 매물 탐지
+- XGBoost, LightGBM을 활용한 고성능 가격 예측 모델 구축
+- 위험 매물 탐지를 통한 정보 비대칭 해소 및 시장 안정성 기여
+
+---
+
+자세한 내용은 각 프로젝트별 링크를 통해 확인할 수 있습니다.
