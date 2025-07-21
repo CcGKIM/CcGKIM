@@ -1,64 +1,47 @@
-# MY PORTFOLIO
+<!-- 헤더 -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=3,1&text=Welcome%20to%20ChoongGoo's%20GitHub%20👋&animation=twinkling&fontSize=35&fontAlignY=40&fontAlign=70&height=250"/>
+</p>
 
-**KIMSS**는 마니또 SNS 플랫폼인 마롱(Marong)의 AI 기반 미션 생성 및 장소 추천 시스템과 서울시 부동산 데이터를 활용한 머신러닝 분석 프로젝트를 포함한 통합 프로젝트입니다.
-
----
-
-## 프로젝트 구성
-
-| 프로젝트명                                   | 설명                                        | 주요 기술                                          |
-| -------------------------------------------- | ------------------------------------------- | -------------------------------------------------- |
-| [marong_mission](./tree/main/marong_mission) | 마니또 미션 자동 생성 시스템                | LangChain, HuggingFace, LangGraph, SBERT, ChromaDB |
-| [marong_place](./tree/main/marong_place)     | 마니또 사용자 맞춤 장소 추천 시스템         | PyTorch, SQLAlchemy, ChromaDB, ThreadPoolExecutor  |
-| [zerobase_ml](./tree/main/zerobase_ml)       | 서울시 전월세 계약 데이터 기반 분석 및 예측 | Python, R, XGBoost, LightGBM, Optuna               |
+<p align="center">
+  <a href="https://github.com/CcGKIM">
+    <img src="https://github-readme-stats.vercel.app/api?username=CcGKIM&include_all_commits=true&theme=nord&hide_border=true&count_private=true" width="38.5%" />
+  </a>
+  <img src="https://mazassumnida.wtf/api/v2/generate_badge?boj=kcg014" height="185" />
+</p>
 
 ---
 
-## 핵심 기술 및 방법론
+## 💻 Tech Stack
 
-- LangChain, HuggingFace 기반 자연어 생성 및 평가
-- SBERT 및 ChromaDB를 활용한 임베딩 기반 유사도 검색
-- 멀티스레딩을 통한 대규모 병렬 처리 추천 시스템 구축
-- 사용자 피드백을 반영한 선호도 가중치 동적 갱신
-- 공공데이터를 이용한 데이터 전처리, 탐색적 데이터 분석(EDA), 머신러닝 기반 회귀 예측 모델 구축
+<!-- 언어 & DB -->
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-FFCA28?style=for-the-badge&logo=databricks&logoColor=black)
 
----
+<!-- 프레임워크 & AI툴 -->
+![LangGraph](https://img.shields.io/badge/LangGraph-000000?style=for-the-badge&logo=github&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-000000?style=for-the-badge&logo=github&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
-## 프로젝트 상세 소개
+<!-- 데이터 분석 -->
+![Numpy](https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white)
 
-### 1. Marong Mission (마롱 미션 생성기)
-
-마니또 게임에 필요한 미션을 자동으로 생성하는 AI 시스템입니다. 사용자 활동 및 그룹 성향 데이터를 바탕으로 자연스러우면서도 맞춤형 미션을 제공합니다.
-
-**주요 기능:**
-
-- LangGraph 기반 파이프라인 구성
-- 그룹별 콘텐츠 및 설명 텍스트를 반영한 미션 생성
-- SBERT와 ChromaDB를 이용한 유사 예시 검색 및 후처리(미션 필터링, 중복 제거, 난이도 분류)
-- EXAONE 평가 모델을 이용한 미션 평가(일관성, 적절성, 창의성, 수행가능성)
-
-### 2. Marong Place (마롱 장소 추천 시스템)
-
-사용자와 마니또의 MBTI 점수, 위치 정보, 음식 선호 데이터를 활용하여 최적의 음식점 및 카페를 추천하는 맞춤형 장소 추천 시스템입니다.
-
-**주요 기능:**
-
-- 사용자와 마니또의 MBTI 분석 및 유사도 기반 추천
-- 선호 및 비선호 음식 데이터를 통한 개인화 필터링
-- 엔트로피 기반 특성 가중치 조정 및 위치 기반 점수 계산
-- 사용자 피드백을 통한 추천 결과의 지속적 개선
-
-### 3. Zerobase ML (서울시 전월세 계약 데이터 분석)
-
-서울시 전월세 계약 데이터를 분석하여 위험 매물 패턴 탐지 및 가격 예측 모델을 개발한 프로젝트입니다.
-
-**주요 기능:**
-
-- 데이터 수집 및 전처리 (이상치 및 결측치 처리, 파생 변수 생성)
-- 탐색적 데이터 분석(EDA)을 통한 주요 특성 및 위험 매물 탐지
-- XGBoost, LightGBM을 활용한 고성능 가격 예측 모델 구축
-- 위험 매물 탐지를 통한 정보 비대칭 해소 및 시장 안정성 기여
 
 ---
 
-자세한 내용은 각 프로젝트별 링크를 통해 확인할 수 있습니다.
+## 🗒️ DEV's Log
+
+[![Notion](https://img.shields.io/badge/Notion-9999FF?style=for-the-badge&logo=notion&logoColor=white)](https://enshrined-skate-eda.notion.site/My-CS-Study-23619b9916ce8058aeabd642e35adc61)
+
+---
+
+## 📬 Contact
+
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=Gmail&logoColor=white)](mailto:kcg199510@gmail.com)
