@@ -15,6 +15,7 @@
   <img src="https://mazassumnida.wtf/api/v2/generate_badge?boj=kcg014" />
 </p>
 
+안녕하세요! 문제 해결에 몰입하여 고객이 만족하는 서비스를 만드는 개발자, 김충구입니다!
 ---
 
 ## 💻 Tech Stack
