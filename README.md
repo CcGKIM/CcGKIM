@@ -3,11 +3,16 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=3,1&text=Welcome%20to%20ChoongGoo's%20GitHub%20👋&animation=twinkling&fontSize=35&fontAlignY=40&fontAlign=70&height=250"/>
 </p>
 
+<!-- GitHub Stats -->
 <p align="center">
   <a href="https://github.com/CcGKIM">
-    <img src="https://github-readme-stats.vercel.app/api?username=CcGKIM&include_all_commits=true&theme=nord&hide_border=true&count_private=true" width="38.5%" />
+    <img src="https://github-readme-stats.vercel.app/api?username=CcGKIM&include_all_commits=true&theme=nord&hide_border=true&count_private=true" width="60%" />
   </a>
-  <img src="https://mazassumnida.wtf/api/v2/generate_badge?boj=kcg014" height="160" />
+</p>
+
+<!-- Baekjoon Tier -->
+<p align="center">
+  <img src="https://mazassumnida.wtf/api/v2/generate_badge?boj=kcg014" />
 </p>
 
 ---
