@@ -7,7 +7,7 @@
   <a href="https://github.com/CcGKIM">
     <img src="https://github-readme-stats.vercel.app/api?username=CcGKIM&include_all_commits=true&theme=nord&hide_border=true&count_private=true" width="38.5%" />
   </a>
-  <img src="https://mazassumnida.wtf/api/v2/generate_badge?boj=kcg014" height="185" />
+  <img src="https://mazassumnida.wtf/api/v2/generate_badge?boj=kcg014" height="160" />
 </p>
 
 ---
