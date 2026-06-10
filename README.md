@@ -47,7 +47,3 @@
 [![Notion](https://img.shields.io/badge/Notion-9999FF?style=for-the-badge&logo=notion&logoColor=white)](https://enshrined-skate-eda.notion.site/My-CS-Study-23619b9916ce8058aeabd642e35adc61)
 
 ---
-
-## 📬 Contact
-
-[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=Gmail&logoColor=white)](mailto:kcg199510@gmail.com)
